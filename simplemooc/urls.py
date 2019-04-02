@@ -19,7 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     #path('<link>', include('caminho do arquivo separando por pontos')),
     path('', include('simplemooc.core.urls')),
-    path('contato/', include('simplemooc.core.urls')), 
     path('admin/', admin.site.urls),
     #path('core/', views.index, name='home'),
 
